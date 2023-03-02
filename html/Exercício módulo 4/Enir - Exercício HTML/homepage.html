@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Enir da Silva Fonseca</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #B0C4DE;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 25%;
+			   
+			  background: #DCDCDC;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #F8F8FF;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #F5F5F5;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2><font color="#000000">Curso Front-end - HTML</font></h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul>
+					<li><a href="01-introducao.html">Introdução</a></li>
+					<li><a href="02-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="06-formularios.html">Formulários</a></li>
+				</ul><br>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="https://br.linkedin.com/in/enir-da-silva-fonseca-5514795" title="Enir da Silva Fonseca" target="_blank">LinkedIn</a></li>
+					<li><a href="https://www.facebook.com/professor.enir" title="Perfil de Enir Fonseca" target="_blank">Facebook</a></li>
+				</ul><br>
+
+				<h3>Links interessantes</h3>
+				<ul>
+					<li><a href="https://paises.ibge.gov.br/#/" title="Dados sobre 193 países reconhecidos pela ONU" target="_blank">Países - IBGE</a></li>
+					<li><a href="https://www.loc.gov/collections/world-digital-library/about-this-collection/" title="Materiais de patrimônio cultural reunidos durante o projeto World Digital Library" target="_blank">Biblioteca Digital Mundial</a></li>
+					<li><a href="https://www.google.com/search?tbm=bks&q=html" title="Livros com conteúdo em HTML" target="_blank">Google Livros</a></li>
+					<li><a href="https://www.inovation.com.br/" title="Alocamos e Recrutamos - Especialista de TI" target="_blank">Inovation</a></li>
+				</ul>
+
+			</nav>
+
+			<article>
+				<table border="0" width="100%">
+					<thead>
+						<tr align=”center”>			
+							<th>
+								<img width="200" src="https://scontent.fssz1-1.fna.fbcdn.net/v/t39.30808-1/240992909_4601730429838775_4125826301841636214_n.jpg?stp=dst-jpg_s200x200&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGz3pStGFz80Sz1lQ2hYrvovh2UCth2y3W-HZQK2HbLdeyLKa1fsc1-xgqbLtrE1ZSGFmNS-v67xSRR0arJ9H9T&_nc_ohc=g4NKr_75eDEAX80UO6q&_nc_ht=scontent.fssz1-1.fna&oh=00_AfBcZ8aR2G1EKAlFydLMSLG9lnX_ylG65AIPcxMqWrQDgg&oe=637D2E9D" height="200" alt="Enir Fonseca">
+								<p style='text-align:justify'>Para obtenção do conhecimento, não é suficiente assimilar os ensinamentos passivamente, devemos promover uma transformação na metodologia. Repensar o desenvolvimento e identificar como trabalhar individualmente ou em conjunto, associada as possibilidades do ensino online.</p>
+								<p style='text-align:justify'>Atento as mudanças oportunizadas pelo avanço tecnológico, cada indivíduo pode aprender e contribuir para melhoria de vida e da sociedade, com pequenas ações realizadas de forma correta, coerente e respeitando os limites do ser humano e do planeta.</p>
+								<p style='text-align:justify'>Este portal é atualizado constantemente com assuntos relacionados à Educação, Tecnologias, Pesquisas e Inovações como mais uma fonte de consulta, visando auxiliar a todos neste processo.</p>
+							</th>
+						</tr>
+					</thead>
+				</table>	
+				
+				<h3 style='text-align:right'>Enir Fonseca</h3>
+
+				<p style='text-align:right'>Professor na <strong>UNILUS</strong> </p>
+			</article>
+		</section>
+		<footer>
+			<p><font color="#000000">Desenvolvido por Enir Fonseca</font></p>
+		</footer>
+		
+	</body>
+</html>

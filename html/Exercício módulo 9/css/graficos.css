@@ -1,0 +1,60 @@
+div {  
+    margin: 40px auto;
+}
+
+
+/* Círculo*/
+#grafico-01 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/*#grafico-01 img {
+    width: 100%;
+    height: auto;
+}*/
+
+#grafico-01 {
+    filter: drop-shadow(4px 4 px 10px #333);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Triângulo */
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+}
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
+
+/* Filtros */
+#grafico-01{
+	filter: drop-shadow(4px 4px 10px #333);
+
+.filtro {
+	filter: grayscale(100%); /* escala de cinza */
+	filter: blur(5px); /* desfoque */
+	filter: brightness(50%); /* brilho (100% = normal) */
+	filter: invert(100%); /* inversão de cores */
+	filter: opcacity(50%); 
+	filter:saturate(200%) sepia(100%) blur(5px); /* combina filtros separados por espaço */
+}
+
+.filtro:hover {
+	filter:grayscale(0%);
+}
